@@ -1,10 +1,22 @@
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Header } from "./components/header";
+
+import styles from './styles/app.module.css';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Header />
+
+      <main className={styles.main}>
+
+        <Routes>
+          
+        </Routes>
+
+      </main>
       
-    </div>
+    </Router>
   );
 }
 
