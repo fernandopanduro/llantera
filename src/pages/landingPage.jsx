@@ -4,6 +4,8 @@ import imgBanner from '../assets/images/autoBanner2.jpg';
 import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
 import {BsTelephoneOutboundFill} from 'react-icons/bs'
+import {IoLogoWhatsapp} from 'react-icons/io';
+import {FaRegCalendarAlt} from 'react-icons/fa';
  
 export function LandingPage() {
     return (
@@ -30,7 +32,11 @@ export function LandingPage() {
                 </div>
             </div>
 
-            
+            <ul className={styles.bottomList}>
+                <li className={styles.bottomListItem}><BsTelephoneOutboundFill size={23} /></li>
+                <li className={styles.bottomListItem}><IoLogoWhatsapp size={23} /></li>
+                <li className={styles.bottomListItem}><FaRegCalendarAlt size={23} /></li>
+            </ul>
 
         </section>
     );
