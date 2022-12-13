@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { LandingPage } from "./pages/landingPage";
 
@@ -17,6 +18,7 @@ function App() {
 
       </main>
       
+      <Footer />
     </Router>
   );
 }

@@ -52,6 +52,8 @@
 }
 
 .scroll {
+    position: absolute;
+    bottom: 12%;
     margin-top: var(--fontM);
     display: flex;
     flex-direction: column;

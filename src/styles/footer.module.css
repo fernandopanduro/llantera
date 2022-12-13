@@ -1,0 +1,45 @@
+.footer {
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    padding: var(--fontM) 0;
+}
+
+.footerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.listItem {
+    margin-right: var(--fontS);
+    position: relative;
+}
+
+.listItemMenu {
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.listItemMenu::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: .1875rem;
+    background-color: var(--white);
+    transition: var(--transition);
+}
+
+.listItemMenu:hover {
+    opacity: .8;
+}
+
+.listItemMenu:hover::before {
+    width: 100%;
+}
