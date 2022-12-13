@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 import {BsTelephoneOutboundFill} from 'react-icons/bs'
 import {AiFillHome} from 'react-icons/ai';
@@ -6,7 +7,6 @@ import {MdHomeRepairService} from 'react-icons/md';
 import {GrMail} from 'react-icons/gr'
 
 import styles from '../styles/header.module.css';
-import { useState } from 'react';
 
 
 export function Header() {
@@ -14,7 +14,7 @@ export function Header() {
     const [ isOpen, setIsOpen] = useState(false)
 
     return (
-        <section className={`${styles.header}`}>
+        <section className={`${styles.header}`}>        
             <div className={styles.headerContainer}>
                 <Link to='/'><h1 className={styles.title}>Llantera Mazatlan</h1></Link>
                 <ul className={styles.list}>
@@ -35,6 +35,7 @@ export function Header() {
                     <span className={`${styles.line2__barsMenu} ${isOpen && styles.activeline2__barsMenu}`}></span>
                     <span className={`${styles.line3__barsMenu} ${isOpen && styles.activeline3__barsMenu}`}></span>
                 </div>
+
             </div>
         </section>
     )

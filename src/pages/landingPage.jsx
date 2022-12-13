@@ -1,5 +1,7 @@
 import styles from '../styles/landingPage.module.css';
+
 import imgBanner from '../assets/images/autoBanner2.jpg';
+import imgAbout from '../assets/images/auto.jpg';
 
 import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
@@ -37,6 +39,18 @@ export function LandingPage() {
                 <li className={styles.bottomListItem}><IoLogoWhatsapp size={23} /></li>
                 <li className={styles.bottomListItem}><FaRegCalendarAlt size={23} /></li>
             </ul>
+
+            <section className={`${styles.about} ${styles.sectionContainer} container`}>
+                <div className={styles.aboutContainerImg}>
+                    <img src={imgAbout} className={`${styles.img} ${styles.imgAbout}`} alt="" />
+                </div>
+                <div className={styles.aboutDescription}>
+                    <h3 className={styles.subtitle}>Llantera Garcia en Mazatlan Sinaloa contamos con tecnicos de Calidad</h3>
+                    <p className={styles.paragrath}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae sunt impedit, adipisci tempora deserunt maxime, aliquid temporibus amet fugit, eaque numquam. Tenetur reprehenderit aliquid inventore molestiae unde, mollitia velit quasi?</p>
+                    <p className={styles.paragrath}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae sunt impedit, adipisci tempora deserunt maxime, aliquid temporibus amet fugit, eaque numquam. Tenetur reprehenderit aliquid inventore molestiae unde, mollitia velit quasi?</p>
+                    <p className={styles.paragrath}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae sunt impedit, adipisci tempora deserunt maxime, aliquid temporibus amet fugit, eaque numquam. Tenetur reprehenderit aliquid inventore molestiae unde, mollitia velit quasi?</p>
+                </div>
+            </section>
 
         </section>
     );

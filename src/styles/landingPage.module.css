@@ -3,6 +3,15 @@
     margin-top: 6rem;
     color: black;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
 }
 
 .imgContainer {
@@ -13,10 +22,6 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-
-.banner {
-    position: relative;
 }
 
 .title {
@@ -151,4 +156,66 @@
 
 .bottomListItem:hover {
     background-color: blue;
+}
+
+
+.sectionContainer {
+    padding: 3rem 0;
+}
+
+/* About */
+
+.about {
+    display: flex;
+}
+
+@media (max-width: 45rem) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+.aboutContainerImg {
+    width: 50%;
+}
+
+@media (max-width: 45rem) {
+    .aboutContainerImg {
+        width: 100%;
+    }
+}
+
+.imgAbout {
+    object-position: bottom;
+    height: 33rem;
+}
+
+.aboutDescription {
+    width: 50%;
+}
+
+@media (max-width: 45rem) {
+    .aboutDescription {
+        width: 100%;
+    }
+}
+
+.subtitle {
+    font-size: var(--fontM);
+    color: var(--primaryColor);
+    text-align: left;
+}
+
+@media (max-width: 45rem) {
+    .subtitle {
+        text-align: center;
+    }
+}
+
+.paragrath {
+    font-size: var(--fontS);
+    color: var(--primaryColor);
+    letter-spacing: .0938rem;
+    margin-bottom: var(--fontS);
+    text-align: justify;
 }
