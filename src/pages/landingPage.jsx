@@ -68,7 +68,7 @@ export function LandingPage() {
             <section className={`${styles.form}`} id='contact'>
                 <div  className='container'>
                     <Fade top>
-                        <h3>Contacta a la Mejor Llantera de Mazatlan Sinaloa</h3>
+                        <h3 className={`${styles.subtitle} ${styles.subtitleContact}`}>Contacta a la Mejor Llantera de Mazatlan Sinaloa</h3>
                     </Fade>
                     <div className={styles.contactContainer}>
                         <div className={styles.contactDireccions}>
