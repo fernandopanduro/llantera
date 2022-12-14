@@ -7,7 +7,9 @@ import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
 import {BsTelephoneOutboundFill} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io';
-import {FaRegCalendarAlt} from 'react-icons/fa';
+import {FaRegCalendarAlt, FaMapMarkerAlt} from 'react-icons/fa';
+import {GiFlatTire} from 'react-icons/gi';
+
 import { Fade } from 'react-reveal';
  
 export function LandingPage() {
@@ -68,14 +70,33 @@ export function LandingPage() {
                     <Fade top>
                         <h3>Contacta a la Mejor Llantera de Mazatlan Sinaloa</h3>
                     </Fade>
-                    <form action="" className={`${styles.formContact}`}>
-                        <Fade bottom>
-                            <input className={styles.input} type="text" placeholder='Nombre' />
-                            <input className={styles.input} type="tel" name="" id="" placeholder='Telefono'/>
-                            <input className={styles.input} type="email" placeholder='Email'/>
-                            <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder='Mensage'></textarea>
-                        </Fade>
-                    </form>
+                    <div className={styles.contactContainer}>
+                        <div className={styles.contactDireccions}>
+                            <div className={styles.contactDireccion}>
+                                <h4><FaMapMarkerAlt /> Direccion</h4>
+                                <p>Av. Juan Pablo II 1616, Jaripillo, 82136 Mazatlán, Sin.</p>
+                            </div>
+                            <div className={styles.contactDireccion}>
+                                <h4><FaRegCalendarAlt /> Horario</h4>
+                                <p>Lun. - Vie. 8:00 a 20:00 </p>
+                                <p>Sab. 8:00 a 18:00</p>
+                                <p>Dom. Cerrado</p>
+                            </div>
+                            <div className={styles.contactDireccion}>
+                                <h4><BsTelephoneOutboundFill /> Telefono</h4>
+                                <p>669 123 5660</p>
+                            </div>
+                            <p><GiFlatTire size={125} /></p>
+                        </div>
+                        <form action="" className={`${styles.formContact}`}>
+                            <Fade bottom>
+                                <input className={styles.input} type="text" placeholder='Nombre' />
+                                <input className={styles.input} type="tel" name="" id="" placeholder='Telefono'/>
+                                <input className={styles.input} type="email" placeholder='Email'/>
+                                <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder='Mensage'></textarea>
+                            </Fade>
+                        </form>
+                    </div>
                 </div>
             </section>
 
