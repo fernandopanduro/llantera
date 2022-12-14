@@ -179,11 +179,14 @@
 
 .aboutContainerImg {
     width: 50%;
+    margin-right: var(--fontM);
 }
 
 @media (max-width: 45rem) {
     .aboutContainerImg {
         width: 100%;
+        margin-right: 0;
+        margin-bottom: var(--fontM);
     }
 }
 
@@ -220,4 +223,35 @@
     letter-spacing: .0938rem;
     margin-bottom: var(--fontS);
     text-align: justify;
+}
+
+/* Form */
+
+.form {
+    width: 100%;
+    padding: var(--fontX) 0;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #eeeeee;
+    outline: none;
+    border: none;
+    color: #757575;
+    padding: var(--fontS) var(--fontM);
+    margin-bottom: var(--fontS);
+}
+
+/* Google Maps */
+
+.googleMaps {
+    width: 100%;
+    height: 25rem;
 }
