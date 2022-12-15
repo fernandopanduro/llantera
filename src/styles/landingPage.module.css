@@ -9,6 +9,22 @@
     justify-content: center;
 }
 
+.seccionContainerBox {
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.seccionContainerBox:nth-of-type(2){
+    background-color: #eeeeee;
+}
+
+.seccionContainerBox:nth-of-type(2) .paragrath,
+.seccionContainerBox:nth-of-type(2) .subtitle {
+    color: var(--primaryColor);
+}
+
 .banner {
     position: relative;
     width: 100%;
@@ -208,24 +224,28 @@
 
 .subtitle {
     font-size: var(--fontM);
-    color: var(--primaryColor);
+    color: var(--white);
+    margin-bottom: var(--fontS);
     text-align: left;
-}
-
-@media (max-width: 45rem) {
-    .subtitle {
-        text-align: center;
-    }
 }
 
 .paragrath {
     font-size: var(--fontS);
-    color: var(--primaryColor);
+    color: var(--white);
     letter-spacing: .0938rem;
     margin-bottom: var(--fontS);
+    font-weight: 400;
     text-align: justify;
 }
 
+/* Services */
+
+.services {
+}
+
+.listServices .paragrath {
+    margin-bottom: 0;
+}
 /* Contact */
 
 .subtitleContact {
@@ -297,10 +317,35 @@
     color: #757575;
     padding: var(--fontS) var(--fontM);
     margin-bottom: var(--fontS);
+    font-size: var(--fontS);
+    letter-spacing: 1.15px;
 }
 
-.input:nth-child(4) {
-    margin-bottom: 0;
+.btnContact {
+    background-color: var(--primaryColor);
+    border: none;
+    padding: var(--fontS) var(--fontM);
+    cursor: pointer;
+    font-size: var(--fontS);
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btnContact:hover {
+    background-color: blue;
+}
+
+.containerCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--fontS);
+}
+.labelCheckbox {
+    margin-left: .1875rem;
+    opacity: .7;
+    font-size: .75rem;
+
 }
 
 /* Google Maps */

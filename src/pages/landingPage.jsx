@@ -49,26 +49,49 @@ export function LandingPage() {
                 </ul>
             </Fade>
 
-            <section className={`${styles.about} ${styles.sectionContainer} container`}>
-                <Fade left>
-                    <div className={styles.aboutContainerImg}>
-                        <img src={imgAbout} className={`${styles.img} ${styles.imgAbout}`} alt="" />
-                    </div>
-                </Fade>
-                <div className={styles.aboutDescription}>
-                    <Fade bottom>
-                        <h3 className={styles.subtitle}>Llantera Garcia en Mazatlan Sinaloa contamos con tecnicos de Calidad</h3>
-                        <p className={styles.paragrath}>Llantera Garcia en Mazatlán. Ofrecemos el servicio de llantería móvil a domicilio para mayor comodidad de nuestros clientes. Si necesitas cambiar tus llantas o simplemente necesitas un reemplazo</p>
-                        <p className={styles.paragrath}>Nuestro personal está capacitado y utilizamos las mejores herramientas y equipos para asegurarnos de que nuestros trabajos se realicen de manera rápida y eficiente. Ofrecemos servicios de alta calidad a nuestros clientes, y contamos con una amplia gama de llantas nuevas y llantas usadas para todo tipo de vehículos, desde automóviles hasta camionetas</p>
-                        <p className={styles.paragrath}>¡visítanos en Llantera Garcia! Estamos seguros de que encontrarás lo que buscas y te ofreceremos un excelente servicio.</p>
+            <section className={styles.seccionContainerBox}>
+                <div className={`${styles.about} ${styles.sectionContainer} container`}>
+                    <Fade left>
+                        <div className={styles.aboutContainerImg}>
+                            <img src={imgAbout} className={`${styles.img} ${styles.imgAbout}`} alt="" />
+                        </div>
                     </Fade>
+                    <div className={styles.aboutDescription}>
+                        <Fade bottom>
+                            <h3 className={styles.subtitle}>⭐ Llantera Garcia en Mazatlan Sinaloa contamos con tecnicos de Calidad ⭐</h3>
+                            <p className={styles.paragrath}>🚗 Llantera Garcia en Mazatlán. Ofrecemos el servicio de llantera móvil a domicilio para mayor comodidad de nuestros clientes. Si necesitas cambiar tus llantas o simplemente necesitas un reemplazo</p>
+                            <p className={styles.paragrath}>✅ Nuestro personal está capacitado y utilizamos las mejores herramientas y equipos para asegurarnos de que nuestros trabajos se realicen de manera rápida y eficiente. Ofrecemos servicios de alta calidad a nuestros clientes, y contamos con una amplia gama de llantas nuevas y llantas usadas para todo tipo de vehículos, desde automóviles hasta camionetas</p>
+                            <p className={styles.paragrath}>📌 ¡Visítanos en Llantera Garcia! Estamos seguros de que encontrarás lo que buscas y te ofreceremos un excelente servicio.</p>
+                        </Fade>
+                    </div>
                 </div>
+            </section>
+
+            <section className={styles.seccionContainerBox} id='services'>
+                <div className={`${styles.services} ${styles.sectionContainer} container`}>
+                    <h3 className={styles.subtitle}>🛠️ Servicios de reparacion de llantas y neumaticos 🛠️</h3>
+                    <p className={styles.paragrath}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero tenetur repellendus fuga similique facere rerum voluptate magni quasi incidunt, placeat eligendi adipisci cupiditate pariatur ex quibusdam dolores quaerat hic nesciunt.</p>
+
+                    <ul className={styles.listServices}>
+                        <li className={styles.paragrath}>✅ Parchado.</li>
+                        <li className={styles.paragrath}>✅ Vulcanizado.</li>
+                        <li className={styles.paragrath}>✅ Balanceo.</li>
+                        <li className={styles.paragrath}>✅ Montaje de Llanta.</li>
+                        <li className={styles.paragrath}>✅ Rotacion de Llanta.</li>
+                        <li className={styles.paragrath}>✅ Inyeccion.</li>
+                        <li className={styles.paragrath}>✅ Desponche de Llanta.</li>
+                        <li className={styles.paragrath}>✅ Cambio de Valvula.</li>
+                        <li className={styles.paragrath}>✅ Revision de la presion del aire.</li>
+                        <li className={styles.paragrath}>✅ Sellado de Llanta.</li>
+                    </ul>
+                </div>
+
             </section>
 
             <section className={`${styles.form}`} id='contact'>
                 <div  className='container'>
                     <Fade top>
-                        <h3 className={`${styles.subtitle} ${styles.subtitleContact}`}>Contacta a la Mejor Llantera de Mazatlan Sinaloa</h3>
+                        <h3 className={`${styles.subtitle} ${styles.subtitleContact}`}>📞 Contacta a la mejor Llantera en Mazatlan Sinaloa</h3>
                     </Fade>
                     <div className={styles.contactContainer}>
                         <div className={styles.contactDireccions}>
@@ -94,6 +117,11 @@ export function LandingPage() {
                                 <input className={styles.input} type="tel" name="" id="" placeholder='Telefono'/>
                                 <input className={styles.input} type="email" placeholder='Email'/>
                                 <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder='Mensage'></textarea>
+                                <div className={styles.containerCheckbox}>
+                                    <input type="checkbox" name="" id="checkbox" checked />
+                                    <label htmlFor="chekbox" className={styles.labelCheckbox}>Me interesa recibir ofertas nuevas y exclusivas</label>
+                                </div>
+                                <button className={styles.btnContact}>Enviar</button>
                             </Fade>
                         </form>
                     </div>

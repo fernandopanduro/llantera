@@ -20,15 +20,15 @@ export function Header() {
                 <div className={styles.headerContainer}>
                     <Link to='/'><h1 className={styles.title}>Llantera Mazatlan</h1></Link>
                     <ul className={styles.list}>
-                        <li className={styles.listItem}><a href='#'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
-                        <li className={styles.listItem}><a href='#'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
-                        <li className={styles.listItem}><a href='#'><GrMail size={23} className={styles.icon} />Contacto</a></li>
+                        <li className={styles.listItem}><a href='#home'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
+                        <li className={styles.listItem}><a href='#services'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
+                        <li className={styles.listItem}><a href='#contact'><GrMail size={23} className={styles.icon} />Contacto</a></li>
                     </ul>
                     <p className={styles.phoneNumber}><BsTelephoneOutboundFill className={styles.phoneIcon} /> 669 123 5660</p>
                     <ul className={`${styles.listResponsive} ${isOpen && styles.activelistResponsive}`}>
-                        <li className={styles.listItem}><a href='#'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
-                        <li className={styles.listItem}><a href='#'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
-                        <li className={styles.listItem}><a href='#'><GrMail size={23} className={styles.icon} />Contacto</a></li>
+                        <li className={styles.listItem}><a href='#home'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
+                        <li className={styles.listItem}><a href='#services'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
+                        <li className={styles.listItem}><a href='#contact'><GrMail size={23} className={styles.icon} />Contacto</a></li>
                         <li className={`${styles.phoneNumber} ${styles.listItem}`}><BsTelephoneOutboundFill className={styles.phoneIcon} /> 669 123 5660</li>
                     </ul>
 

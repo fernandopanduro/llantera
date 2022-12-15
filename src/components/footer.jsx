@@ -12,9 +12,9 @@ export function Footer() {
             <div className={`${styles.footerContainer} container`}>
                 <Fade bottom>
                     <ul className={styles.list}>
-                        <li className={`${styles.listItem} ${styles.listItemMenu}`}>Servicios</li>
-                        <li className={`${styles.listItem} ${styles.listItemMenu}`}>Inicio</li>
-                        <li className={`${styles.listItem} ${styles.listItemMenu}`}>Contacto</li>
+                        <li className={`${styles.listItem} ${styles.listItemMenu}`}><a href='#services'>Servicios</a></li>
+                        <li className={`${styles.listItem} ${styles.listItemMenu}`}><a href='#home'>Inicio</a></li>
+                        <li className={`${styles.listItem} ${styles.listItemMenu}`}><a href='#contact'>Contacto</a></li>
                     </ul>
                     <ul className={styles.list}>
                         <li className={styles.listItem}><img src={visa} alt="" /></li>
