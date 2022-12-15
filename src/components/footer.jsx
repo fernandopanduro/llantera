@@ -37,11 +37,9 @@ export function Footer() {
                         <p className={styles.footerSubmenu}>Acerca De</p>
                         <ul className={styles.footerList}>
                             <Fade bottom>
-                                <li className={styles.footerListItem}><Link /* to='/privacy' */>Privacidad</Link> </li>
-                                <li className={styles.footerListItem}><Link /* to='/terms' */>Terminos</Link> </li>
-                                <li className={styles.footerListItem}><Link /* to='/#contact' */>Contacto</Link> </li>
-                                <li className={styles.footerListItem}><Link /* to='/refund' */>Devoluciones</Link> </li>
-                                <li className={styles.footerListItem}><Link /* to='/shipping' */>Compra</Link> </li>
+                                <li className={styles.footerListItem}><Link to='/privacy'>Privacidad</Link> </li>
+                                <li className={styles.footerListItem}><Link to='/terms'>Terminos</Link> </li>
+                                <li className={styles.footerListItem}><Link to='/refund'>Devoluciones</Link> </li>
                             </Fade>
                         </ul>
                     </div> 

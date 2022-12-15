@@ -66,3 +66,48 @@ li {
 a {
   text-decoration: none;
 }
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--primaryColor);
+  margin-top: 10rem;
+  margin-bottom: var(--fontM);
+}
+
+.subtitle {
+  margin-bottom: var(--MarginS);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1.15px;
+  color: var(--primaryColor);
+}
+
+.subtitlePage {
+  font-size: 1.2rem;
+  color: var(--primaryColor);
+  margin-top: var(--MarginM);
+}
+
+.paragrahtTitle {
+  font-weight: 600;
+  margin-bottom: var(--fontS);
+  color: var(--primaryColor);
+  text-transform: uppercase;
+}
+
+.paragrath {
+  margin-bottom: var(--fontM);
+  letter-spacing: 1.15px;
+  color: var(--primaryColor);
+  text-align: justify;
+}
+
+.paragrathList {
+  margin: 0;
+}
+
+.paragrathList:last-of-type {
+  margin-bottom: var(--fontM);
+}
