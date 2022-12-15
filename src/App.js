@@ -3,6 +3,7 @@ import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { LandingPage } from "./pages/landingPage";
 import { Privacidad } from "./pages/privacidad";
+import { Refund } from "./pages/refund";
 
 import styles from './styles/app.module.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='privacy' element={<Privacidad />} />
+          <Route path='refund' element={<Refund />} />
         </Routes>
 
       </main>
