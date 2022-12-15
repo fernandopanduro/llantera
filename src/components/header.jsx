@@ -5,7 +5,8 @@ import { Fade } from 'react-reveal';
 import {BsTelephoneOutboundFill} from 'react-icons/bs'
 import {AiFillHome} from 'react-icons/ai';
 import {MdHomeRepairService} from 'react-icons/md';
-import {GrMail} from 'react-icons/gr'
+import {GrMail} from 'react-icons/gr';
+import {IoLogoWhatsapp} from 'react-icons/io'
 
 import styles from '../styles/header.module.css';
 
@@ -18,7 +19,7 @@ export function Header() {
         <section className={`${styles.header}`}> 
             <Fade top>
                 <div className={styles.headerContainer}>
-                    <Link to='/'><h1 className={styles.title}>Llantera Mazatlan</h1></Link>
+                    <h1 className={styles.title}><Link to='/'>Llantera Mazatlan</Link></h1>
                     <ul className={styles.list}>
                         <li className={styles.listItem}><a href='#home'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
                         <li className={styles.listItem}><a href='#services'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
@@ -29,7 +30,8 @@ export function Header() {
                         <li className={styles.listItem}><a href='#home'><AiFillHome size={23} className={styles.icon} /> Inicio</a></li>
                         <li className={styles.listItem}><a href='#services'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
                         <li className={styles.listItem}><a href='#contact'><GrMail size={23} className={styles.icon} />Contacto</a></li>
-                        <li className={`${styles.phoneNumber} ${styles.listItem}`}><BsTelephoneOutboundFill className={styles.phoneIcon} /> 669 123 5660</li>
+                        <li className={`${styles.listItem}`}><a target='_blank' href='tel:6691235660'><BsTelephoneOutboundFill size={23} /></a></li>
+                        <li className={`${styles.listItem}`}><a target='_blank' href='https://api.whatsapp.com/send/?phone=523122702315&text&type=phone_number&app_absent=0'><IoLogoWhatsapp size={23} /></a></li>
                     </ul>
 
                     <div className={styles.barsMenu} onClick={() =>  setIsOpen(!isOpen)}>

@@ -3,7 +3,6 @@
     top: 0;
     width: 100%;
     height: 6rem;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     background-color: var(--primaryColor);
@@ -16,12 +15,13 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 .title {
     font-size: var(--fontM);
     flex-grow: 1;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .list {
@@ -47,6 +47,7 @@
 .listItem a {
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 
 .listItem:hover {
@@ -74,25 +75,45 @@
 }
 
 .listResponsive {
-    position: absolute;
-    width: 1px;
-    top: 0;
-    right: -20%;
-    height: 100vh;
-    background-color: var(--primaryColor);
-    width: 0px;
-    z-index: 10;
-    transition: var(--transition);
-}   
+    display: none;
+}
+
+   
 
 @media (max-width: 45rem) {
+    .listResponsive {
+        overflow: hidden;
+        position: absolute;
+        width: 0px;
+        top: 0;
+        right: -5%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primaryColor);
+        z-index: 0;
+        transition: var(--transition);
+    }
+
     .activelistResponsive {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        justify-content: center;
+        width: 18.75rem;
+        max-width: 66.6%;
         visibility: visible;
-        right: -20%;
+        right: -8%;
+    }
+
+    .listResponsive {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .activelistResponsive .listItem {
+        margin-bottom: var(--fontS);
     }
 }
 
