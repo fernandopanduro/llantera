@@ -27,18 +27,28 @@ export function Footer() {
                         <p className={styles.footerSubmenu}>Menu</p>
                         <ul className={styles.footerList}>
                             <Fade bottom>
-                                <li className={styles.footerListItem}><a href='#home'>Inicio</a></li>
-                                <li className={styles.footerListItem}><a href='#services'>Servicios</a></li>
-                                <li className={styles.footerListItem}><a href='#contact'>Contacto</a></li>
+                                <li className={styles.footerListItem}><Link to='/'>Inicio</Link></li>
+                                <li className={styles.footerListItem}><Link href='/'>Servicios</Link></li>
+                                <li className={styles.footerListItem}><Link href='/'>Contacto</Link></li>
                             </Fade>
                         </ul>
                     </div>
                     <div className={styles.footerList}>
-                        <p className={styles.footerSubmenu}>Acerca De</p>
+                        <p className={styles.footerSubmenu}>Pagos</p>
+                        <ul className={`${styles.footerList} ${styles.payments}`}>
+                            <Fade bottom>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={visa} alt="visa" /></li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={discover} alt="discover" /></li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={american} alt='american express' /></li>
+                            </Fade>
+                        </ul>
+                    </div>
+                    <div className={styles.footerList}>
+                        <p className={styles.footerSubmenu}>Terminos</p>
                         <ul className={styles.footerList}>
                             <Fade bottom>
+                                <li className={styles.footerListItem}><Link to='/terms'>Condiciones</Link> </li>
                                 <li className={styles.footerListItem}><Link to='/privacy'>Privacidad</Link> </li>
-                                <li className={styles.footerListItem}><Link to='/terms'>Terminos</Link> </li>
                                 <li className={styles.footerListItem}><Link to='/refund'>Devoluciones</Link> </li>
                             </Fade>
                         </ul>

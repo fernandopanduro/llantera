@@ -56,6 +56,14 @@
     margin-right: var(--fontS);
 }
 
+.payments {
+    display: flex;
+}
+
+.paymentImg {
+    margin-right: var(--fontS);
+}
+
 .copy {
     font-weight: 800;
     width: 90%;
