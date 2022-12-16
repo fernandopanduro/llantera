@@ -277,9 +277,6 @@
     }
 }
 
-.listServices {
-}
-
 .listServices .paragrath {
     margin-bottom: 0;
 }
@@ -297,6 +294,15 @@
         width: 100%;
         margin-bottom: var(--fontM);
     }
+}
+
+.emoji {
+    height: 1.25rem;
+    margin-right: .375rem;
+}
+
+.emojiTitle {
+    height: 2.3125rem;
 }
 /* Contact */
 

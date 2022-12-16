@@ -2,8 +2,11 @@ import styles from '../styles/landingPage.module.css';
 
 import imgBanner from '../assets/images/autoBanner2.jpg';
 import imgAbout from '../assets/images/montado-de-llantas.jpg';
-import imgServices from '../assets/images/workshop.png'
-import imgLlanta from '../assets/images/car.png'
+import imgServices from '../assets/images/workshop.png';
+import imgLlanta from '../assets/images/car.png';
+import imgFlatTire from '../assets/images/flat-tire.png';
+import imgTires from '../assets/images/tires.png';
+import imgRepairShop from '../assets/images/repair-shop.png';
 
 import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
@@ -89,7 +92,7 @@ export function LandingPage() {
                             </Fade>
                         </div>
                     <Parallax
-                    translateX={['300px', '70px']}
+                    translateX={['240px', '70px']}
                     scale={[0.75, 1]}
                     rotate={[0, -180]}
                     easing="easeInQuad"
@@ -103,8 +106,8 @@ export function LandingPage() {
                 <section className={styles.seccionContainerBox} id='services'>
                     <div className={`${styles.services} ${styles.sectionContainer} container`}>
                         <Fade bottom>
-                            <h3 className={styles.subtitle}>🛠️ Servicios de reparacion de llantas y neumaticos</h3>
-                            <p className={styles.paragrath}>Los neumáticos son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la seguridad y el rendimiento del vehículo.</p>
+                            <h3 className={styles.subtitle}><img className={`${styles.emoji} ${styles.emojiTitle}`} src={imgRepairShop} />Servicios de reparacion de llantas y neumaticos</h3>
+                            <p className={styles.paragrath}><img className={styles.emoji} src={imgTires} />Los neumáticos son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la seguridad y el rendimiento del vehículo.</p>
                         </Fade>
 
                         <div className={styles.servicesDescription}>
@@ -114,7 +117,7 @@ export function LandingPage() {
 
                             <ul className={styles.listServices}>
                                 <Fade bottom>
-                                    <li className='paragrahtTitle'>En Llantera Garcia ofrecemos los siguientes servicios:</li>
+                                    <li className='paragrahtTitle'><img className={styles.emoji} src={imgFlatTire} /> En Llantera Garcia ofrecemos los siguientes servicios:</li>
                                     <li className={styles.paragrath}>✅ Parchado.</li>
                                     <li className={styles.paragrath}>✅ Vulcanizado.</li>
                                     <li className={styles.paragrath}>✅ Balanceo.</li>
@@ -140,7 +143,7 @@ export function LandingPage() {
                         </Parallax>
 
                         <Fade bottom>
-                            <p className={styles.paragrath}>Es importante llevar a cabo reparaciones y mantenimiento de los neumáticos de forma regular para garantizar que el vehículo se mantenga en buenas condiciones y seguro para conducir.</p>
+                            <p className={styles.paragrath}>🛠️ Es importante llevar a cabo reparaciones y mantenimiento de los neumáticos de forma regular para garantizar que el vehículo se mantenga en buenas condiciones y seguro para conducir.</p>
                         </Fade> 
                         
                     </div>
