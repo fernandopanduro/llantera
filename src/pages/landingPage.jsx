@@ -11,10 +11,16 @@ import {FaRegCalendarAlt, FaMapMarkerAlt} from 'react-icons/fa';
 import {GiFlatTire} from 'react-icons/gi';
 
 import { Fade } from 'react-reveal';
+import { Helmet } from 'react-helmet';
  
 export function LandingPage() {
     return (
         <section className={styles.landingPage}>
+
+            <Helmet>
+                <title>🛠️ Llantera Garcia 🛠️</title>
+                <meta name="description" content="Llantera Garcia" />
+            </Helmet>
 
             <div className={styles.banner} id='home'>
                 <Fade>

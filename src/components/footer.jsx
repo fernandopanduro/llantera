@@ -1,7 +1,8 @@
 import styles from '../styles/footer.module.css';
 
 import visa from '../assets/images/visa.png';
-import discover from '../assets/images/discover.png';
+import money from '../assets/images/money.png';
+import master from '../assets/images/master-card.png';
 import american from '../assets/images/american-express.png';
 
 import Fade from 'react-reveal/Fade';
@@ -38,8 +39,9 @@ export function Footer() {
                         <ul className={`${styles.footerList} ${styles.payments}`}>
                             <Fade bottom>
                                 <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={visa} alt="visa" /></li>
-                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={discover} alt="discover" /></li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={master} alt="master card" /></li>
                                 <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={american} alt='american express' /></li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={money} alt="money" /></li>
                             </Fade>
                         </ul>
                     </div>

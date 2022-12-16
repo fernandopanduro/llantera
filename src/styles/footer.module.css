@@ -58,6 +58,7 @@
 
 .payments {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .paymentImg {

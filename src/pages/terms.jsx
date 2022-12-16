@@ -25,11 +25,11 @@ export function Terms() {
                     <p className='paragrahtTitle'>No debes:</p>
                     <ul> 
                         <Fade bottom>
-                            <li className='paragrath paragrathList'>Copiar o volver a publicar material de Llantera Garcia En Mazatlan</li>
-                            <li className='paragrath paragrathList'>Vender, alquilar o sublicenciar material de Llantera Garcia En Mazatlan</li>
-                            <li className='paragrath paragrathList'>Reproducir, duplicar o copiar material de Llantera Garcia En Mazatlan</li>
-                            <li className='paragrath paragrathList'>Redistribuir contenido de Llantera Garcia En Mazatlan</li>
-                            <li className='paragrath paragrathList'>Este acuerdo comenzará el fecha presente.</li>
+                            <li className='paragrath paragrathList'>- Copiar o volver a publicar material de Llantera Garcia En Mazatlan</li>
+                            <li className='paragrath paragrathList'>- Vender, alquilar o sublicenciar material de Llantera Garcia En Mazatlan</li>
+                            <li className='paragrath paragrathList'>- Reproducir, duplicar o copiar material de Llantera Garcia En Mazatlan</li>
+                            <li className='paragrath paragrathList'>- Redistribuir contenido de Llantera Garcia En Mazatlan</li>
+                            <li className='paragrath paragrathList'>- Este acuerdo comenzará el fecha presente.</li>
                         </Fade>
                     </ul>
                     <p className='paragrath'>Partes de este sitio web ofrecen a los usuarios la oportunidad de publicar e intercambiar opiniones e información en determinadas áreas. Llantera Garcia no filtra, edita, publica ni revisa los comentarios antes de su presencia en el sitio web. Los comentarios no reflejan los puntos de vista ni las opiniones de Llantera Garcia, sus agentes y/o afiliados. Los comentarios reflejan los puntos de vista y opiniones de la persona que publica. En la medida en que lo permitan las leyes aplicables, Llantera Garcia no será responsable de los comentarios ni de ninguna responsabilidad, daños o gastos causados ​​o sufridos como resultado de cualquier uso o publicación o apariencia de comentarios en este sitio web.</p>
@@ -37,36 +37,36 @@ export function Terms() {
                     <p className='paragrahtTitle'>Garantizas y declaras que:</p>
                     <ul>
                         <Fade bottom>
-                            <li className='paragrath paragrathList'>Tienes derecho a publicar comentarios en nuestro sitio web y tienes todas las licencias y consentimientos necesarios para hacerlo;</li>
-                            <li className='paragrath paragrathList'>Los comentarios no invaden ningún derecho de propiedad intelectual, incluidos, entre otros, los derechos de autor, patentes o marcas comerciales de terceros;</li>
-                            <li className='paragrath paragrathList'>Los comentarios no contienen ningún material difamatorio, calumnioso, ofensivo, indecente o ilegal de otro modo, que sea una invasión de la privacidad.</li>
-                            <li className='paragrath paragrathList'>Los comentarios no se utilizarán para solicitar o promover negocios o actividades comerciales personalizadas o presentes o actividades ilegales.</li>
-                            <li className='paragrath paragrathList'>Por la presente, otorgas a Llantera Garcia una licencia no exclusiva para usar, reproducir, editar y autorizar a otros a usar, reproducir y editar cualquiera de tus comentarios en todas y cada una de las formas, formatos, o medios.</li>
+                            <li className='paragrath paragrathList'>- Tienes derecho a publicar comentarios en nuestro sitio web y tienes todas las licencias y consentimientos necesarios para hacerlo;</li>
+                            <li className='paragrath paragrathList'>- Los comentarios no invaden ningún derecho de propiedad intelectual, incluidos, entre otros, los derechos de autor, patentes o marcas comerciales de terceros;</li>
+                            <li className='paragrath paragrathList'>- Los comentarios no contienen ningún material difamatorio, calumnioso, ofensivo, indecente o ilegal de otro modo, que sea una invasión de la privacidad.</li>
+                            <li className='paragrath paragrathList'>- Los comentarios no se utilizarán para solicitar o promover negocios o actividades comerciales personalizadas o presentes o actividades ilegales.</li>
+                            <li className='paragrath paragrathList'>- Por la presente, otorgas a Llantera Garcia una licencia no exclusiva para usar, reproducir, editar y autorizar a otros a usar, reproducir y editar cualquiera de tus comentarios en todas y cada una de las formas, formatos, o medios.</li>
                         </Fade>
                     </ul>
                     <p className='paragrahtTitle'>Hipervínculos a nuestro contenido:</p>
                     <p className='paragrath'>Las siguientes organizaciones pueden vincularse a nuestro sitio web sin aprobación previa por escrito:</p>
                     <ul>
                         <Fade bottom>
-                            <li className='paragrath paragrathList'>Agencias gubernamentales;</li>
-                            <li className='paragrath paragrathList'>Motores de búsqueda;</li>
-                            <li className='paragrath paragrathList'>Organizaciones de noticias;</li>
-                            <li className='paragrath paragrathList'>Los distribuidores de directorios en línea pueden vincularse a nuestro sitio web de la misma manera que hacen hipervínculos a los sitios web de otras empresas que figuran en la lista; y</li>
-                            <li className='paragrath paragrathList'>Empresas acreditadas en todo el sistema, excepto que soliciten organizaciones sin fines de lucro, centros comerciales de caridad y grupos de recaudación de fondos de caridad que no pueden hacer hipervínculos a nuestro sitio web.</li>
-                            <li className='paragrath paragrathList'>Estas organizaciones pueden enlazar a nuestra página de inicio, a publicaciones o a otra información del sitio siempre que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de la parte vinculante y sus productos y/o servicios; y (c) encaja en el contexto del sitio de la parte vinculante.</li>
+                            <li className='paragrath paragrathList'>- Agencias gubernamentales;</li>
+                            <li className='paragrath paragrathList'>- Motores de búsqueda;</li>
+                            <li className='paragrath paragrathList'>- Organizaciones de noticias;</li>
+                            <li className='paragrath paragrathList'>- Los distribuidores de directorios en línea pueden vincularse a nuestro sitio web de la misma manera que hacen hipervínculos a los sitios web de otras empresas que figuran en la lista; y</li>
+                            <li className='paragrath paragrathList'>- Empresas acreditadas en todo el sistema, excepto que soliciten organizaciones sin fines de lucro, centros comerciales de caridad y grupos de recaudación de fondos de caridad que no pueden hacer hipervínculos a nuestro sitio web.</li>
+                            <li className='paragrath paragrathList'>- Estas organizaciones pueden enlazar a nuestra página de inicio, a publicaciones o a otra información del sitio siempre que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de la parte vinculante y sus productos y/o servicios; y (c) encaja en el contexto del sitio de la parte vinculante.</li>
                         </Fade>
                     </ul>
                     <p className='paragrahtTitle'>Podemos considerar y aprobar otras solicitudes de enlaces de los siguientes tipos de organizaciones:</p>
                     <ul>
                         <Fade>
-                            <li className='paragrath paragrathList'>fuentes de información de consumidores y/o empresas comúnmente conocidas;</li>
-                            <li className='paragrath paragrathList'>sitios de la comunidad .com;</li>
-                            <li className='paragrath paragrathList'>asociaciones u otros grupos que representan organizaciones benéficas;</li>
-                            <li className='paragrath paragrathList'>distribuidores de directorios en línea;</li>
-                            <li className='paragrath paragrathList'>portales de Internet;</li>
-                            <li className='paragrath paragrathList'>firmas de contabilidad, derecho y consultoría; y</li>
-                            <li className='paragrath paragrathList'>instituciones educativas y asociaciones comerciales.</li>
-                            <li className='paragrath paragrathList'>Aprobaremos las solicitudes de enlace de estas organizaciones si: (a) el enlace no nos haría vernos desfavorablemente a nosotros mismos ni a nuestras empresas acreditadas; (b) la organización no tiene registros negativos con nosotros; (c) el beneficio para nosotros de la visibilidad del hipervínculo compensa la ausencia de Llantera Garcia; y (d) el enlace está en el contexto de información general de recursos.</li>
+                            <li className='paragrath paragrathList'>- fuentes de información de consumidores y/o empresas comúnmente conocidas;</li>
+                            <li className='paragrath paragrathList'>- sitios de la comunidad .com;</li>
+                            <li className='paragrath paragrathList'>- asociaciones u otros grupos que representan organizaciones benéficas;</li>
+                            <li className='paragrath paragrathList'>- distribuidores de directorios en línea;</li>
+                            <li className='paragrath paragrathList'>- portales de Internet;</li>
+                            <li className='paragrath paragrathList'>- firmas de contabilidad, derecho y consultoría; y</li>
+                            <li className='paragrath paragrathList'>- instituciones educativas y asociaciones comerciales.</li>
+                            <li className='paragrath paragrathList'>- Aprobaremos las solicitudes de enlace de estas organizaciones si: (a) el enlace no nos haría vernos desfavorablemente a nosotros mismos ni a nuestras empresas acreditadas; (b) la organización no tiene registros negativos con nosotros; (c) el beneficio para nosotros de la visibilidad del hipervínculo compensa la ausencia de Llantera Garcia; y (d) el enlace está en el contexto de información general de recursos.</li>
                         </Fade>
                     </ul>
                     <p className='paragrath'>Estas organizaciones pueden enlazar a nuestra página de inicio siempre que el enlace: (a) no sea engañoso de ninguna manera; (b) no implique falsamente patrocinio, respaldo o aprobación de la parte vinculante y sus productos o servicios; y (c) encaja en el contexto del sitio de la parte vinculante.</p>
@@ -74,10 +74,10 @@ export function Terms() {
                     <p className='paragrahtTitle'>Las organizaciones aprobadas pueden hacer hipervínculos a nuestro sitio web de la siguiente manera:</p>
                     <ul>
                         <Fade>
-                            <li className='paragrath paragrathList'>Mediante el uso de nuestro nombre corporativo; o</li>
-                            <li className='paragrath paragrathList'>Mediante el uso del localizador uniforme de recursos al que se está vinculando; o</li>
-                            <li className='paragrath paragrathList'>Usar cualquier otra descripción de nuestro sitio web al que está vinculado que tenga sentido dentro del contexto y formato del contenido en el sitio de la parte vinculante.</li>
-                            <li className='paragrath paragrathList'>No se permitirá el uso del logotipo de Llantera Garcia u otro material gráfico para vincular sin un acuerdo de licencia de marca comercial.</li>
+                            <li className='paragrath paragrathList'>- Mediante el uso de nuestro nombre corporativo; o</li>
+                            <li className='paragrath paragrathList'>- Mediante el uso del localizador uniforme de recursos al que se está vinculando; o</li>
+                            <li className='paragrath paragrathList'>- Usar cualquier otra descripción de nuestro sitio web al que está vinculado que tenga sentido dentro del contexto y formato del contenido en el sitio de la parte vinculante.</li>
+                            <li className='paragrath paragrathList'>- No se permitirá el uso del logotipo de Llantera Garcia u otro material gráfico para vincular sin un acuerdo de licencia de marca comercial.</li>
                         </Fade>
                     </ul>
                     <p className='paragrahtTitle'>Responsabilidad del contenido:</p>
@@ -91,11 +91,11 @@ export function Terms() {
                     <p className='paragrath'>En la medida máxima permitida por la ley aplicable, excluimos todas las representaciones, garantías y condiciones relacionadas con nuestro sitio web y el uso de este. Nada en este descargo de responsabilidad:</p>
                     <ul>
                         <Fade>
-                            <li className='paragrath paragrathList'>limitará o excluirá nuestra responsabilidad o la tuya por muerte o lesiones personales;</li>
-                            <li className='paragrath paragrathList'>limitará o excluirá nuestra responsabilidad o la tuya por fraude o tergiversación fraudulenta;</li>
-                            <li className='paragrath paragrathList'>limitará cualquiera de nuestras responsabilidades o las tuyas de cualquier manera que no esté permitida por la ley aplicable; o</li>
-                            <li className='paragrath paragrathList'>excluirá cualquiera de nuestras responsabilidades o las tuyas que no puedan estar excluidas según la ley aplicable.</li>
-                            <li className='paragrath paragrathList'>Las limitaciones y prohibiciones de responsabilidad establecidas en esta sección y en otras partes de este descargo de responsabilidad: (a) están sujetas al párrafo anterior; y (b) regirá todas las responsabilidades que surjan en virtud de la exención de responsabilidad, incluidas las responsabilidades que surjan en el contrato, en agravio y por incumplimiento de la obligación legal.</li>
+                            <li className='paragrath paragrathList'>- limitará o excluirá nuestra responsabilidad o la tuya por muerte o lesiones personales;</li>
+                            <li className='paragrath paragrathList'>- limitará o excluirá nuestra responsabilidad o la tuya por fraude o tergiversación fraudulenta;</li>
+                            <li className='paragrath paragrathList'>- limitará cualquiera de nuestras responsabilidades o las tuyas de cualquier manera que no esté permitida por la ley aplicable; o</li>
+                            <li className='paragrath paragrathList'>- excluirá cualquiera de nuestras responsabilidades o las tuyas que no puedan estar excluidas según la ley aplicable.</li>
+                            <li className='paragrath paragrathList'>- Las limitaciones y prohibiciones de responsabilidad establecidas en esta sección y en otras partes de este descargo de responsabilidad: (a) están sujetas al párrafo anterior; y (b) regirá todas las responsabilidades que surjan en virtud de la exención de responsabilidad, incluidas las responsabilidades que surjan en el contrato, en agravio y por incumplimiento de la obligación legal.</li>
                         </Fade>
                     </ul>
                     <p className='paragrath'>Siempre que el sitio web y la información y los servicios en el sitio se proporcionen de forma gratuita, no seremos responsables de ninguna pérdida o daño de cualquier naturaleza.</p>
