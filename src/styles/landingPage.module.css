@@ -111,6 +111,22 @@
     margin-right: var(--fontS);
 }
 
+.imgLlantaContainer {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+@media (min-width: 45rem) {
+    .imgLlantaContainer {
+        display: none;
+    }
+}
+
+.imgLlanta {
+    width: 6.25rem;
+}
+
 /* Bottoms  */
 
 .bottomList {
@@ -185,6 +201,7 @@
 /* About */
 
 .about {
+    position: relative;
     display: flex;
 }
 
@@ -241,10 +258,45 @@
 /* Services */
 
 .services {
+    position: relative;
+}
+
+.services .paragrath:nth-child(11) {
+    margin-bottom: var(--fontS);
+}
+
+.servicesDescription {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--fontS);
+}
+
+@media (max-width: 45rem) {
+    .servicesDescription {
+        flex-direction: column;
+    }
+}
+
+.listServices {
 }
 
 .listServices .paragrath {
     margin-bottom: 0;
+}
+
+.imgServices {
+    height: 28.125rem;
+    object-fit: contain;
+    width: 50%;
+    margin-right: var(--fontM);
+}
+
+@media (max-width: 45rem) {
+    .imgServices {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: var(--fontM);
+    }
 }
 /* Contact */
 
@@ -253,6 +305,7 @@
 }
 
 .contactContainer {
+    position: relative;
     display: flex;
     width: 100%;
     margin-top: var(--fontM);
@@ -291,6 +344,7 @@
 /* Form */
 
 .form {
+    position: relative;
     width: 100%;
     padding: var(--fontX) 0;
     display: flex;
