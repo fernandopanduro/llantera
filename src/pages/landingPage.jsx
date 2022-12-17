@@ -113,9 +113,9 @@ export function LandingPage() {
                         <div className={styles.aboutDescription}>
                             <Fade bottom>
                                 <h3 className={styles.subtitle}>⭐ Llantera Garcia en Mazatlan Sinaloa contamos con tecnicos de Calidad</h3>
-                                <p className={styles.paragrath}>🚗 Llantera Garcia en Mazatlán. Ofrecemos el servicio de llantera móvil a domicilio para mayor comodidad de nuestros clientes. Si necesitas cambiar tus llantas o simplemente necesitas un reemplazo</p>
-                                <p className={styles.paragrath}>✅ Nuestro personal está capacitado y utilizamos las mejores herramientas y equipos para asegurarnos de que nuestros trabajos se realicen de manera rápida y eficiente. Ofrecemos servicios de alta calidad a nuestros clientes, y contamos con una amplia gama de llantas nuevas y llantas usadas para todo tipo de vehículos, desde automóviles hasta camionetas</p>
-                                <p className={styles.paragrath}>📌 ¡Visítanos en Llantera Garcia! Estamos seguros de que encontrarás lo que buscas y te ofreceremos un excelente servicio.</p>
+                                <p className={styles.paragrath}>🚗 <strong>Llantera Garcia en Mazatlán.</strong> Ofrecemos el servicio de <strong>llantera móvil</strong> a domicilio para mayor comodidad de nuestros clientes. Si necesitas cambiar tus llantas o simplemente necesitas un reemplazo</p>
+                                <p className={styles.paragrath}>✅ Nuestro personal está <strong>capacitado</strong> y utilizamos las mejores herramientas y equipos para asegurarnos de que nuestros trabajos se realicen de manera <strong>rápida</strong> y <strong>eficiente</strong>. Ofrecemos servicios de alta calidad a nuestros clientes, y contamos con una amplia gama de llantas nuevas y llantas usadas para todo tipo de vehículos, desde automóviles hasta camionetas</p>
+                                <p className={styles.paragrath}>📌 <strong>¡Visítanos en Llantera Garcia!</strong> Estamos seguros de que encontrarás lo que buscas y te ofreceremos un <strong>excelente</strong> servicio.</p>
                             </Fade>
                         </div>
                     <Parallax
@@ -150,7 +150,7 @@ export function LandingPage() {
                                     <source srcSet={imgTiresWebp} type='image/webp'/>
                                     <img className={styles.emoji} alt='Reparacion de llantas y neumaticos' src={imgTires} loading='lazy'/>
                                 </picture>
-                                Los neumáticos son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la seguridad y el rendimiento del vehículo.</p>
+                                Los <strong>neumáticos</strong> son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la <strong>seguridad</strong> y el <b>rendimiento</b> del <b>vehículo</b>.</p>
                         </Fade>
 
                         <div className={styles.servicesDescription}>
@@ -201,7 +201,7 @@ export function LandingPage() {
                         </Parallax>
 
                         <Fade bottom>
-                            <p className={styles.paragrath}>🛠️ Es importante llevar a cabo reparaciones y mantenimiento de los neumáticos de forma regular para garantizar que el vehículo se mantenga en buenas condiciones y seguro para conducir.</p>
+                            <p className={styles.paragrath}>🛠️ Es importante llevar a cabo <strong>reparaciones y mantenimiento de los neumáticos</strong> de forma regular para garantizar que el vehículo se mantenga en buenas condiciones y seguro para conducir.</p>
                         </Fade> 
                         
                     </div>

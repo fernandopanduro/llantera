@@ -304,6 +304,14 @@
 .emojiTitle {
     height: 2.3125rem;
 }
+
+.services strong {
+    color: var(--primaryColor);
+}
+
+.services b {
+    color: var(--primaryColor);
+}
 /* Contact */
 
 .subtitleContact {
