@@ -238,7 +238,7 @@ export function LandingPage() {
                                     <input className={styles.input} type="email" placeholder='Email'/>
                                     <textarea className={styles.input} name="" id="" cols="30" rows="10" placeholder='Mensage'></textarea>
                                     <div className={styles.containerCheckbox}>
-                                        <input type="checkbox" name="" id="checkbox" checked />
+                                        <input type="checkbox" name="checkbox" id="checkbox" checked />
                                         <label htmlFor="chekbox" className={styles.labelCheckbox}>Me interesa recibir ofertas nuevas y exclusivas</label>
                                     </div>
                                     <button className={styles.btnContact}>Enviar</button>
