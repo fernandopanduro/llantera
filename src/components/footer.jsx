@@ -1,9 +1,21 @@
 import styles from '../styles/footer.module.css';
 
 import visa from '../assets/images/visa.png';
+import visaAvif from '../assets/images/visa.avif';
+import visaWebp from '../assets/images/visa.webp';
+
 import money from '../assets/images/money.png';
+import moneyAvif from '../assets/images/money.avif';
+import moneyWebp from '../assets/images/money.webp';
+
 import master from '../assets/images/master-card.png';
+import masterAvif from '../assets/images/master-card.avif';
+import masterWebp from '../assets/images/master-card.webp';
+
 import american from '../assets/images/american-express.png';
+import americanAvif from '../assets/images/american-express.avif';
+import americanWebp from '../assets/images/american-express.webp';
+
 
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
@@ -38,10 +50,38 @@ export function Footer() {
                         <p className={styles.footerSubmenu}>Pagos</p>
                         <ul className={`${styles.footerList} ${styles.payments}`}>
                             <Fade bottom>
-                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={visa} alt="visa" /></li>
-                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={master} alt="master card" /></li>
-                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={american} alt='american express' /></li>
-                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}><img src={money} alt="money" /></li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}>
+                                    <picture>
+                                        <source srcSet={visaAvif} type='image/avif'/>
+                                        <source srcSet={visaWebp} type='image/webp'/>
+                                        <img src={visa} alt="visa" loading='lazy' />
+                                    </picture>
+
+                                </li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}>
+                                    <picture>
+                                        <source srcSet={masterAvif} type='image/avif'/>
+                                        <source srcSet={masterWebp} type='image/webp'/>
+                                        <img src={master} alt="master card" loading='lazy' />
+                                    </picture>
+
+                                </li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}>
+                                    <picture>
+                                        <source srcSet={americanAvif} type='image/avif'/>
+                                        <source srcSet={americanWebp} type='image/webp'/>
+                                        <img src={american} alt='american express' loading='lazy' />
+                                    </picture>
+
+                                </li>
+                                <li className={`${styles.footerListItem} ${styles.paymentImg}`}>
+                                    <picture>
+                                        <source srcSet={moneyAvif} type='image/avif'/>
+                                        <source srcSet={moneyWebp} type='image/webp'/>
+                                        <img src={money} alt="money" loading='lazy' />
+                                    </picture>
+
+                                </li>
                             </Fade>
                         </ul>
                     </div>

@@ -1,12 +1,33 @@
 import styles from '../styles/landingPage.module.css';
 
 import imgBanner from '../assets/images/autoBanner2.jpg';
+import imgBannerAvif from '../assets/images/autoBanner2.avif';
+import imgBannerWebp from '../assets/images/autoBanner2.webp';
+
 import imgAbout from '../assets/images/montado-de-llantas.jpg';
+import imgAboutAvif from '../assets/images/montado-de-llantas.avif';
+import imgAboutWebp from '../assets/images/montado-de-llantas.webp';
+
 import imgServices from '../assets/images/workshop.png';
+import imgServicesAvif from '../assets/images/workshop.avif';
+import imgServicesWebp from '../assets/images/workshop.webp';
+
 import imgLlanta from '../assets/images/car.png';
+import imgLlantaAvif from '../assets/images/car.avif';
+import imgLlantaWebp from '../assets/images/car.webp';
+
 import imgFlatTire from '../assets/images/flat-tire.png';
+import imgFlatTireAvif from '../assets/images/flat-tire.avif';
+import imgFlatTireWebp from '../assets/images/flat-tire.webp';
+
 import imgTires from '../assets/images/tires.png';
+import imgTiresAvif from '../assets/images/tires.avif';
+import imgTiresWebp from '../assets/images/tires.webp';
+
 import imgRepairShop from '../assets/images/repair-shop.png';
+import imgRepairShopAvif from '../assets/images/repair-shop.avif';
+import imgRepairShopWebp from '../assets/images/repair-shop.webp';
+
 
 import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
@@ -63,7 +84,11 @@ export function LandingPage() {
                     easing="easeInQuad"
                     className={styles.imgLlantaContainer}
                     >
-                        <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" />
+                        <picture>
+                            <source srcSet={imgLlantaAvif} type='image/avif'/>
+                            <source srcSet={imgLlantaWebp} type='image/webp'/>
+                            <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" loading='lazy' />
+                        </picture>
                     </Parallax> 
                 </div>
 
@@ -79,9 +104,11 @@ export function LandingPage() {
                     <div className={`${styles.about} ${styles.sectionContainer} container`}>
 
                         <Fade left>
-                            <div className={styles.aboutContainerImg}>
-                                <img src={imgAbout} className={`${styles.img} ${styles.imgAbout}`} alt="" />
-                            </div>
+                            <picture className={styles.aboutContainerImg}>
+                                <source srcSet={imgAboutAvif} type='image/avif' />
+                                <source srcSet={imgAboutWebp} type='image/webp' />
+                                <img src={imgAbout} className={`${styles.img} ${styles.imgAbout}`} alt="Image Llantera en mazatlan en sinaloa" loading='lazy' />
+                            </picture>
                         </Fade>
                         <div className={styles.aboutDescription}>
                             <Fade bottom>
@@ -98,7 +125,11 @@ export function LandingPage() {
                     easing="easeInQuad"
                     className={styles.imgLlantaContainer}
                     >
-                        <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" />
+                        <picture>
+                            <source srcSet={imgLlantaAvif} type='image/avif'/>
+                            <source srcSet={imgLlantaWebp} type='image/webp'/>
+                            <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" loading='lazy'/>
+                        </picture>
                     </Parallax>
                     </div>
                 </section>
@@ -106,18 +137,41 @@ export function LandingPage() {
                 <section className={styles.seccionContainerBox} id='services'>
                     <div className={`${styles.services} ${styles.sectionContainer} container`}>
                         <Fade bottom>
-                            <h3 className={styles.subtitle}><img className={`${styles.emoji} ${styles.emojiTitle}`} src={imgRepairShop} />Servicios de reparacion de llantas y neumaticos</h3>
-                            <p className={styles.paragrath}><img className={styles.emoji} src={imgTires} />Los neumáticos son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la seguridad y el rendimiento del vehículo.</p>
+                            <h3 className={styles.subtitle}>
+                                <picture>
+                                    <source srcSet={imgRepairShopAvif} type='image/avif'/>
+                                    <source srcSet={imgRepairShopWebp} type='image/webp'/>
+                                    <img className={`${styles.emoji} ${styles.emojiTitle}`} alt='Taller de reparacion de neumaticos en mazatlan sinaloa' src={imgRepairShop} loading='lazy'/>
+                                </picture>
+                                Servicios de reparacion de llantas y neumaticos</h3>
+                            <p className={styles.paragrath}>
+                                <picture>
+                                    <source srcSet={imgTiresAvif} type='image/avif'/>
+                                    <source srcSet={imgTiresWebp} type='image/webp'/>
+                                    <img className={styles.emoji} alt='Reparacion de llantas y neumaticos' src={imgTires} loading='lazy'/>
+                                </picture>
+                                Los neumáticos son una parte importante del vehículo, ya que son la única parte del vehículo que entra en contacto con el suelo y, por lo tanto, son responsables de soportar el peso del vehículo y transmitir la fuerza necesaria para moverse y frenar. Es importante mantener los neumáticos en buen estado ya que pueden afectar la seguridad y el rendimiento del vehículo.</p>
                         </Fade>
 
                         <div className={styles.servicesDescription}>
                             <Fade bottom>
-                                <img src={imgServices} className={`${styles.imgServices}`}  alt="Llantera" />
+                                <picture>
+                                    <source srcSet={imgServicesAvif} type='image/avif'/>
+                                    <source srcSet={imgServicesWebp} type='image/webp'/>
+                                    <img src={imgServices} className={`${styles.imgServices}`}  alt="Servicos de la llantera movil" loading='lazy' />
+                                </picture>
                             </Fade>
 
                             <ul className={styles.listServices}>
                                 <Fade bottom>
-                                    <li className='paragrahtTitle'><img className={styles.emoji} src={imgFlatTire} /> En Llantera Garcia ofrecemos los siguientes servicios:</li>
+                                    <li className='paragrahtTitle'>
+                                        <picture>
+                                            <source srcSet={imgFlatTireAvif} type='image/avif'/>
+                                            <source srcSet={imgFlatTireWebp} type='image/webp'/>
+                                            <img className={styles.emoji} src={imgFlatTire} alt='Llanta desinflada y reparacion de llantas en mazatlan' loading='lazy'/>
+                                        </picture>
+                                        En Llantera Garcia ofrecemos los siguientes servicios:</li>
+                                        
                                     <li className={styles.paragrath}>✅ Parchado.</li>
                                     <li className={styles.paragrath}>✅ Vulcanizado.</li>
                                     <li className={styles.paragrath}>✅ Balanceo.</li>
@@ -139,7 +193,11 @@ export function LandingPage() {
                         easing="easeInQuad"
                         className={styles.imgLlantaContainer}
                         >
-                            <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" />
+                            <picture>
+                                <source srcSet={imgLlantaAvif} type='image/avif'/>
+                                <source srcSet={imgLlantaWebp} type='image/webp'/>
+                                <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" loading='lazy'/>
+                            </picture>
                         </Parallax>
 
                         <Fade bottom>
@@ -195,13 +253,17 @@ export function LandingPage() {
                     easing="easeInQuad"
                     className={styles.imgLlantaContainer}
                     >
-                        <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" />
+                        <picture>
+                            <source srcSet={imgLlantaAvif} type='image/avif'/>
+                            <source srcSet={imgLlantaWebp} type='image/webp'/>
+                            <img className={styles.imgLlanta} src={imgLlanta} alt="Llanta Nueva en Mazatlan Sinaloa" loading='lazy' />
+                        </picture>
                     </Parallax>
 
                 </section>
 
                 <Fade bottom>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7331.078985288881!2d-106.394492!3d23.259839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1db92cda63990934!2z8J-boO-4jyBMbGFudGVyYSBNb3ZpbCB8IExsYW50ZXJhIEdhcmPDrWEgfCBMbGFudGVyYSBNYXphdGxhbiDwn5ug77iP!5e0!3m2!1ses-419!2smx!4v1671040916129!5m2!1ses-419!2smx" loading="lazy" frameborder="0" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" className={styles.googleMaps}></iframe>
+                    <iframe title='Google maps Llantera Garcia' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7331.078985288881!2d-106.394492!3d23.259839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1db92cda63990934!2z8J-boO-4jyBMbGFudGVyYSBNb3ZpbCB8IExsYW50ZXJhIEdhcmPDrWEgfCBMbGFudGVyYSBNYXphdGxhbiDwn5ug77iP!5e0!3m2!1ses-419!2smx!4v1671040916129!5m2!1ses-419!2smx" loading="lazy" frameborder="0" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" className={styles.googleMaps}></iframe>
                 </Fade>
 
             </section>
