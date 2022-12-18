@@ -20,8 +20,9 @@ import americanWebp from '../assets/images/american-express.webp';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 
-import {AiFillFacebook, AiFillInstagram} from 'react-icons/ai';
+import {AiFillFacebook} from 'react-icons/ai';
 import {FaTiktok} from 'react-icons/fa';
+import {HiMapPin} from 'react-icons/hi2'
 
 export function Footer() {
     return (
@@ -31,9 +32,9 @@ export function Footer() {
                     <div className={styles.footerList}>
                         <p className={styles.footerSubmenu}>Llantera Garcia</p>
                         <ul className={`${styles.footerList} ${styles.icons}`}>
-                            <li><a href='facebook'><AiFillFacebook size={22}/></a></li>
-                            <li><a href='instagram'><AiFillInstagram size={22}/></a></li>
-                            <li><a href='tiktok'><FaTiktok size={22}/></a></li>
+                            <li><a target='_blank' href='https://www.facebook.com/LlanteraMovilLlanteraGarciaLlanteraMazatlan'><AiFillFacebook size={22}/></a></li>
+                            <li><a target='_blank' href='https://g.page/r/CTQJmWPaLLkdEBE/review'><HiMapPin size={22}/></a></li>
+                            <li><a target='_blank' href='https://www.tiktok.com/@llanteragarciamazatlan'><FaTiktok size={22}/></a></li>
                         </ul>
                     </div>
                     <div className={styles.footerList}>

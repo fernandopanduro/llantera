@@ -28,6 +28,67 @@ import imgRepairShop from '../assets/images/repair-shop.png';
 import imgRepairShopAvif from '../assets/images/repair-shop.avif';
 import imgRepairShopWebp from '../assets/images/repair-shop.webp';
 
+/* Galery */
+
+import almacenDeLlantas from '../assets/images/galery/Almacen-de-Llantas-min.jpg';
+import almacenDeLlantasWebp from '../assets/images/galery/Almacen-de-Llantas-min.webp';
+import almacenDeLlantasAvif from '../assets/images/galery/Almacen-de-Llantas-min.avif';
+
+import BalanceoDeLlantas from '../assets/images/galery/Balanceo-de-llantas-en-Mazatlan-min.jpg'
+import BalanceoDeLlantasWebp from '../assets/images/galery/Balanceo-de-llantas-en-Mazatlan-min.webp'
+import BalanceoDeLlantasAvif from '../assets/images/galery/Balanceo-de-llantas-en-Mazatlan-min.avif'
+
+import BodegaDeLlantas from '../assets/images/galery/bodega-de-llantas-nuevas-min.jpg'
+import BodegaDeLlantasWebp from '../assets/images/galery/bodega-de-llantas-nuevas-min.webp'
+import BodegaDeLlantasAvif from '../assets/images/galery/bodega-de-llantas-nuevas-min.avif'
+
+import PresionLlantas from '../assets/images/galery/Calibrar-presion-de-los-neumaticos-min.jpg'
+import PresionLlantasWebp from '../assets/images/galery/Calibrar-presion-de-los-neumaticos-min.webp'
+import PresionLlantasAvif from '../assets/images/galery/Calibrar-presion-de-los-neumaticos-min.avif'
+
+import CambioLlantas from '../assets/images/galery/cambiio-llantas-min.jpg'
+import CambioLlantasWebp from '../assets/images/galery/cambiio-llantas-min.webp'
+import CambioLlantasAvif from '../assets/images/galery/cambiio-llantas-min.avif'
+
+import Derrape from '../assets/images/galery/derrape-min.jpg'
+import DerrapeWebp from '../assets/images/galery/derrape-min.webp'
+import DerrapeAvif from '../assets/images/galery/derrape-min.avif'
+
+import LlantaReparadaEnLlantera from '../assets/images/galery/llanta-reparada-en-llantera-min.jpg'
+import LlantaReparadaEnLlanteraWebp from '../assets/images/galery/llanta-reparada-en-llantera-min.webp'
+import LlantaReparadaEnLlanteraAvif from '../assets/images/galery/llanta-reparada-en-llantera-min.avif'
+
+import LlantasNuevas from '../assets/images/galery/Llantas-Nuevas-min.jpg'
+import LlantasNuevasWebp from '../assets/images/galery/Llantas-Nuevas-min.webp'
+import LlantasNuevasAvif from '../assets/images/galery/Llantas-Nuevas-min.avif'
+
+import LlantasRegalo from '../assets/images/galery/llantas-regalo-min.jpg'
+import LlantasRegaloWebp from '../assets/images/galery/llantas-regalo-min.webp'
+import LlantasRegaloAvif from '../assets/images/galery/llantas-regalo-min.avif'
+
+import LlantasRines from '../assets/images/galery/llantas-y-rines-min.jpg'
+import LlantasRinesWebp from '../assets/images/galery/llantas-y-rines-min.webp'
+import LlantasRinesAvif from '../assets/images/galery/llantas-y-rines-min.avif'
+
+import LlanteraMovilMazatlan from '../assets/images/galery/Llantera-movil-Mazatlan-min.jpg'
+import LlanteraMovilMazatlanWebp from '../assets/images/galery/Llantera-movil-Mazatlan-min.webp'
+import LlanteraMovilMazatlanAvif from '../assets/images/galery/Llantera-movil-Mazatlan-min.avif'
+
+import LlanteraMovilMazatlanSinaloa from '../assets/images/galery/Llantera-Movil-Mazatlan-Sinaloa-min.jpg'
+import LlanteraMovilMazatlanSinaloaWebp from '../assets/images/galery/Llantera-Movil-Mazatlan-Sinaloa-min.webp'
+import LlanteraMovilMazatlanSinaloaAvif from '../assets/images/galery/Llantera-Movil-Mazatlan-Sinaloa-min.avif'
+
+import Inyeccion from '../assets/images/galery/reparacion-inyeccion-min.jpg'
+import InyeccionWebp from '../assets/images/galery/reparacion-inyeccion-min.webp'
+import InyeccionAvif from '../assets/images/galery/reparacion-inyeccion-min.avif'
+
+import Sellado from '../assets/images/galery/sellado-de-llantas-min.png'
+import SelladoWebp from '../assets/images/galery/sellado-de-llantas-min.webp'
+
+import Valvula from '../assets/images/galery/Servicio-de-cambio-de-valvula-min.jpg'
+import ValvulaWebp from '../assets/images/galery/Servicio-de-cambio-de-valvula-min.webp'
+import ValvulaAvif from '../assets/images/galery/Servicio-de-cambio-de-valvula-min.avif'
+
 
 import {BsFillMouseFill} from 'react-icons/bs';
 import {HiArrowLongDown} from 'react-icons/hi2';
@@ -64,7 +125,7 @@ export function LandingPage() {
                         <Fade bottom>
                             <div className={styles.presentationText}>
                                 <h2 className={styles.title}>Llantera Mazatlan</h2> 
-                                <a href="#contact">
+                                <a target='_blank' href='tel:6691235660'>
                                     <button className={styles.button}>
                                         <BsTelephoneOutboundFill className={styles.phone} size={23} />
                                         Llama Ahora
@@ -95,7 +156,7 @@ export function LandingPage() {
                 <Fade right>
                     <ul className={styles.bottomList}>
                         <li className={styles.bottomListItem}><a target='_blank' href='tel:6691235660'><BsTelephoneOutboundFill size={23} /></a></li>
-                        <li className={styles.bottomListItem}><a target='_blank' href='https://api.whatsapp.com/send/?phone=523122702315&text&type=phone_number&app_absent=0'><IoLogoWhatsapp size={23} /></a></li>
+                        <li className={styles.bottomListItem}><a target='_blank' href='https://api.whatsapp.com/send/?phone=526691235660&text&type=phone_number&app_absent=0'><IoLogoWhatsapp size={23} /></a></li>
                         <li className={styles.bottomListItem}><a href='#contact'><FaRegCalendarAlt size={23} /></a></li>
                     </ul>
                 </Fade>
@@ -260,6 +321,86 @@ export function LandingPage() {
                         </picture>
                     </Parallax>
 
+                </section>
+
+                <section className={`container`}>
+                    <div className={styles.galery}>
+
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={almacenDeLlantasAvif} type='image/avif'/>
+                            <source srcSet={almacenDeLlantasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={almacenDeLlantas} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={BalanceoDeLlantasAvif} type='image/avif'/>
+                            <source srcSet={BalanceoDeLlantasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={BalanceoDeLlantas} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={ValvulaAvif} type='image/avif'/>
+                            <source srcSet={ValvulaWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={Valvula} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={SelladoWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={Sellado} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={InyeccionAvif} type='image/avif'/>
+                            <source srcSet={InyeccionWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={Inyeccion} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlanteraMovilMazatlanSinaloaAvif} type='image/avif'/>
+                            <source srcSet={LlanteraMovilMazatlanSinaloaWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlanteraMovilMazatlanSinaloa} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlanteraMovilMazatlanAvif} type='image/avif'/>
+                            <source srcSet={LlanteraMovilMazatlanWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlanteraMovilMazatlan} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlantasRinesAvif} type='image/avif'/>
+                            <source srcSet={LlantasRinesWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlantasRines} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlantasRegaloAvif} type='image/avif'/>
+                            <source srcSet={LlantasRegaloWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlantasRegalo} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlantasNuevasAvif} type='image/avif'/>
+                            <source srcSet={LlantasNuevasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlantasNuevas} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={LlantaReparadaEnLlanteraAvif} type='image/avif'/>
+                            <source srcSet={LlantaReparadaEnLlanteraWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={LlantaReparadaEnLlantera} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={DerrapeAvif} type='image/avif'/>
+                            <source srcSet={DerrapeWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={Derrape} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={BodegaDeLlantasAvif} type='image/avif'/>
+                            <source srcSet={BodegaDeLlantasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={BodegaDeLlantas} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={PresionLlantasAvif} type='image/avif'/>
+                            <source srcSet={PresionLlantasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={PresionLlantas} alt="" loading='lazy'/>
+                        </picture>
+                        <picture className={styles.galeryPicture}>
+                            <source srcSet={CambioLlantasAvif} type='image/avif'/>
+                            <source srcSet={CambioLlantasWebp} type='image/webp'/>
+                            <img className={styles.galeryImg} src={CambioLlantas} alt="" loading='lazy'/>
+                        </picture>
+                    </div>
                 </section>
 
                 <Fade bottom>

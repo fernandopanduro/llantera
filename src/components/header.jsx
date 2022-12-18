@@ -31,7 +31,7 @@ export function Header() {
                         <li className={styles.listItem}><a href='#services'> <MdHomeRepairService size={23} className={styles.icon} /> Servicios</a></li>
                         <li className={styles.listItem}><a href='#contact'><GrMail size={23} className={styles.icon} />Contacto</a></li>
                         <li className={`${styles.listItem} ${styles.iconAction}`}><a target='_blank' href='tel:6691235660'><BsTelephoneOutboundFill size={23} /></a></li>
-                        <li className={`${styles.listItem} ${styles.iconAction}`}><a target='_blank' href='https://api.whatsapp.com/send/?phone=523122702315&text&type=phone_number&app_absent=0'><IoLogoWhatsapp size={23} /></a></li>
+                        <li className={`${styles.listItem} ${styles.iconAction}`}><a target='_blank' href='https://api.whatsapp.com/send/?phone=526691235660&text&type=phone_number&app_absent=0'><IoLogoWhatsapp size={23} /></a></li>
                     </ul>
 
                     <div className={styles.barsMenu} onClick={() =>  setIsOpen(!isOpen)}>
