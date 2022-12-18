@@ -326,80 +326,124 @@ export function LandingPage() {
                 <section className={`container`}>
                     <div className={styles.galery}>
 
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={almacenDeLlantasAvif} type='image/avif'/>
-                            <source srcSet={almacenDeLlantasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={almacenDeLlantas} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={BalanceoDeLlantasAvif} type='image/avif'/>
-                            <source srcSet={BalanceoDeLlantasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={BalanceoDeLlantas} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={ValvulaAvif} type='image/avif'/>
-                            <source srcSet={ValvulaWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={Valvula} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={SelladoWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={Sellado} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={InyeccionAvif} type='image/avif'/>
-                            <source srcSet={InyeccionWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={Inyeccion} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlanteraMovilMazatlanSinaloaAvif} type='image/avif'/>
-                            <source srcSet={LlanteraMovilMazatlanSinaloaWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlanteraMovilMazatlanSinaloa} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlanteraMovilMazatlanAvif} type='image/avif'/>
-                            <source srcSet={LlanteraMovilMazatlanWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlanteraMovilMazatlan} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlantasRinesAvif} type='image/avif'/>
-                            <source srcSet={LlantasRinesWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlantasRines} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlantasRegaloAvif} type='image/avif'/>
-                            <source srcSet={LlantasRegaloWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlantasRegalo} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlantasNuevasAvif} type='image/avif'/>
-                            <source srcSet={LlantasNuevasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlantasNuevas} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={LlantaReparadaEnLlanteraAvif} type='image/avif'/>
-                            <source srcSet={LlantaReparadaEnLlanteraWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={LlantaReparadaEnLlantera} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={DerrapeAvif} type='image/avif'/>
-                            <source srcSet={DerrapeWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={Derrape} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={BodegaDeLlantasAvif} type='image/avif'/>
-                            <source srcSet={BodegaDeLlantasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={BodegaDeLlantas} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={PresionLlantasAvif} type='image/avif'/>
-                            <source srcSet={PresionLlantasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={PresionLlantas} alt="" loading='lazy'/>
-                        </picture>
-                        <picture className={styles.galeryPicture}>
-                            <source srcSet={CambioLlantasAvif} type='image/avif'/>
-                            <source srcSet={CambioLlantasWebp} type='image/webp'/>
-                            <img className={styles.galeryImg} src={CambioLlantas} alt="" loading='lazy'/>
-                        </picture>
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={almacenDeLlantasAvif} type='image/avif'/>
+                                <source srcSet={almacenDeLlantasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={almacenDeLlantas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={BalanceoDeLlantasAvif} type='image/avif'/>
+                                <source srcSet={BalanceoDeLlantasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={BalanceoDeLlantas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={ValvulaAvif} type='image/avif'/>
+                                <source srcSet={ValvulaWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={Valvula} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={SelladoWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={Sellado} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>    
+                        <Fade bottom>
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={InyeccionAvif} type='image/avif'/>
+                                <source srcSet={InyeccionWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={Inyeccion} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlanteraMovilMazatlanSinaloaAvif} type='image/avif'/>
+                                <source srcSet={LlanteraMovilMazatlanSinaloaWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlanteraMovilMazatlanSinaloa} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlanteraMovilMazatlanAvif} type='image/avif'/>
+                                <source srcSet={LlanteraMovilMazatlanWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlanteraMovilMazatlan} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlantasRinesAvif} type='image/avif'/>
+                                <source srcSet={LlantasRinesWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlantasRines} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlantasRegaloAvif} type='image/avif'/>
+                                <source srcSet={LlantasRegaloWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlantasRegalo} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlantasNuevasAvif} type='image/avif'/>
+                                <source srcSet={LlantasNuevasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlantasNuevas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={LlantaReparadaEnLlanteraAvif} type='image/avif'/>
+                                <source srcSet={LlantaReparadaEnLlanteraWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={LlantaReparadaEnLlantera} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={DerrapeAvif} type='image/avif'/>
+                                <source srcSet={DerrapeWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={Derrape} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={BodegaDeLlantasAvif} type='image/avif'/>
+                                <source srcSet={BodegaDeLlantasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={BodegaDeLlantas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={PresionLlantasAvif} type='image/avif'/>
+                                <source srcSet={PresionLlantasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={PresionLlantas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
+                        <Fade bottom>    
+                            <picture className={styles.galeryPicture}>
+                                <source srcSet={CambioLlantasAvif} type='image/avif'/>
+                                <source srcSet={CambioLlantasWebp} type='image/webp'/>
+                                <img className={styles.galeryImg} src={CambioLlantas} alt="" loading='lazy'/>
+                            </picture>
+                        </Fade>
+
                     </div>
                 </section>
 
